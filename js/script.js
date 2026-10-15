@@ -93,3 +93,32 @@ function greeting(name){
 }
 greeting("Sri");
 greeting("Saranya");
+
+//Task 1
+function calculateTotal(price, quantity){
+    return price * quantity;
+}
+console.log(calculateTotal(150, 2));
+//Task 2
+function greets(name){
+    console.log("Hello, " + name);
+}
+greets("Shiny");
+
+//Task 3
+const Events = ["Singing", "Dance", "CodeDebugger", "TreasureHunt", "PaperPresentation"];
+console.log(Events.length);
+
+//Task 4
+let numbers = [5, 10, 15, 20, 25];
+let result = numbers.filter(num=> num>10);
+console.log(result);
+//Task 5
+let nums = [2, 4, 6, 8];
+let final = nums.map(num=> num * 2);
+console.log(final);
+//Task 6
+let numv = [20, 30, 40];
+let finalvalue = numv.reduce((sum, num) => sum + num, 0);
+console.log(finalvalue);
+//Task 7
