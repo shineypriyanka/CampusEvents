@@ -81,3 +81,15 @@ else{
 for(i = 2; i<= 10; i+=2){
     console.log(i);
 }
+//Functions
+function greet(){
+    console.log("Hello!");
+}
+greet();
+greet();
+//Parameters and args
+function greeting(name){
+    console.log("Hello, " +name);
+}
+greeting("Sri");
+greeting("Saranya");
