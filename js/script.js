@@ -121,4 +121,22 @@ console.log(final);
 let numv = [20, 30, 40];
 let finalvalue = numv.reduce((sum, num) => sum + num, 0);
 console.log(finalvalue);
-//Task 7q
+ //Objects
+//Task 1
+let book = {
+    title: "Javascript",
+    author:"John",
+    price:500
+
+};
+console.log(book);
+book.price = 600;
+console.log("Updated price:", book.price);
+//Task 2
+let user = {
+    name:"Alice",
+    address:{
+        city:"Chennai"
+    }
+};
+console.log(user.address.city);
