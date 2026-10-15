@@ -121,4 +121,4 @@ console.log(final);
 let numv = [20, 30, 40];
 let finalvalue = numv.reduce((sum, num) => sum + num, 0);
 console.log(finalvalue);
-//Task 7
+//Task 7q
