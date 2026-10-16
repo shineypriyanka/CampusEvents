@@ -200,3 +200,42 @@ let user2 = {
 
 console.log(user1.address?.city ?? "City not available");
 console.log(user2.address?.city ?? "City not available");
+
+//Scope,Hoisting and closures Tasks
+//Task 1
+let campusName = "S A Engineering College";
+
+function Campus() {
+    console.log(campusName);
+}
+Campus();
+//Task 2
+if (true) {
+    let studentName = "Priya";
+    var ageis = 20;
+
+    console.log(studentName);
+    console.log(ageis);
+}
+
+console.log(ageis);
+//console.log(studentName);
+//Task 3 using var
+console.log(x);
+var x = 10;
+//Task 3 using let
+//console.log(y);
+//let y = 20;
+//Task 4
+function makeCounter(){
+    let count = 0;
+    return function(){
+        count++;
+        console.log(count);
+    };
+}
+let counter = makeCounter();
+
+counter();
+counter();
+counter();
